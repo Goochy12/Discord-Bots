@@ -76,8 +76,8 @@ async def on_message(message):
         warriors_floor = getFloor(warriors_address)
         await message.channel.send("Warriors Floor Is: " + str(warriors_floor))
 
-
-load_dotenv()
-client.run(os.getenv('TOKEN'))
+if __name__ == "__main__":
+    load_dotenv()
+    client.run(os.getenv('TOKEN'))
 
 
