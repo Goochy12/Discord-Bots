@@ -1,7 +1,6 @@
 import discord
 import os
 import requests
-import time
 import asyncio
 from dotenv import load_dotenv
 
